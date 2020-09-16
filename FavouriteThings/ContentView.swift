@@ -46,6 +46,8 @@ struct ContentView: View {
                     .scaledToFit()
                 
                 Text("In this photo, he's in the back, being mobbed by his teammates after pitching a no-hitter against the Cleveland Indians in Cleveland on September 2, 1990. That's a very special event for a pitcher in baseball – none of the opposing players, for nine innings, got a hit. These days, it's rare for a pitcher to even complete a game, let alone a no-hitter. Very cool. ⚾️")
+                
+                Text("I'm going to back up a bit further. Here's a photo of me from when I was much younger! I've stopped eating my toys, but I like this photo, because I seem like a young man of action! In fact, my favourite way to learn is not by listening to someone else, but to learn by doing or making something.")
 
             }
             .padding(.horizontal)
