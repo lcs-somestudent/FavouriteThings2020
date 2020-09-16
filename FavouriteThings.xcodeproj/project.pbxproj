@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E46BE0F25127BD1006629E3 /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E46BE0E25127BD1006629E3 /* AboutMeView.swift */; };
 		81877A352511A7550009A608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81877A342511A7550009A608 /* AppDelegate.swift */; };
 		81877A372511A7550009A608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81877A362511A7550009A608 /* SceneDelegate.swift */; };
 		81877A392511A7550009A608 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81877A382511A7550009A608 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E46BE0E25127BD1006629E3 /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
 		81877A312511A7550009A608 /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81877A342511A7550009A608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81877A362511A7550009A608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				81877A3F2511A7570009A608 /* LaunchScreen.storyboard */,
 				81877A422511A7570009A608 /* Info.plist */,
 				81877A3C2511A7570009A608 /* Preview Content */,
+				0E46BE0E25127BD1006629E3 /* AboutMeView.swift */,
 			);
 			path = FavouriteThings;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E46BE0F25127BD1006629E3 /* AboutMeView.swift in Sources */,
 				81877A352511A7550009A608 /* AppDelegate.swift in Sources */,
 				81877A372511A7550009A608 /* SceneDelegate.swift in Sources */,
 				81877A392511A7550009A608 /* ContentView.swift in Sources */,
