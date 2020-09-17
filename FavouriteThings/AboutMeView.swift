@@ -79,7 +79,8 @@ struct AboutMeView: View {
             .padding(.horizontal)
             
         }
-        
+        .navigationBarTitle("About me...")
+
     }
 }
 

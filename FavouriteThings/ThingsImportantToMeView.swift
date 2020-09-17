@@ -21,10 +21,10 @@ struct ThingsImportantToMeView: View {
                 // Introduction
                 Group {
                     
-                    Text("I am passionate about...")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-                        .multilineTextAlignment(.center)
+//                    Text("I am passionate about...")
+//                        .font(.largeTitle)
+//                        .fontWeight(.bold)
+//                        .multilineTextAlignment(.center)
 
                     Image("climate-fires")
                         .resizable()
@@ -47,6 +47,7 @@ struct ThingsImportantToMeView: View {
             .padding(.horizontal)
             
         }
+        .navigationBarTitle("I'm passionate about")
         
     }
 }
