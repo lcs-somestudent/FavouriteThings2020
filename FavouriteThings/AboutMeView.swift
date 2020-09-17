@@ -10,6 +10,7 @@ import SwiftUI
 
 struct AboutMeView: View {
     var body: some View {
+        
         ScrollView {
             
             VStack(spacing: 10.0) {
@@ -20,9 +21,9 @@ struct AboutMeView: View {
                 // Introduction
                 Group {
                     
-                    Text("A bit about me")
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
+//                    Text("A bit about me")
+//                        .font(.largeTitle)
+//                        .fontWeight(.bold)
                     
                     Image("Me")
                         .resizable()
