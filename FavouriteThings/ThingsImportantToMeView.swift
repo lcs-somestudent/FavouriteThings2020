@@ -30,9 +30,9 @@ struct ThingsImportantToMeView: View {
                         .resizable()
                         .scaledToFit()
                     
-                    Text("Climate change. This is an unedited photo – no filters – taken at noon near Salem, Oregon on September 9, 2020. This photo was shocking to me, and I hope to many others who may not be thinking about climate change as much as I have been.")
+                    Text("Climate change. This is an unedited photo. No filters. Taken at noon near Salem, Oregon on September 9, 2020. This photo was shocking to me, and I hope to many others who may not be thinking about climate change as much as I have been.")
                     
-                    Text("What I would like to do, somehow, is write an app that draws connections between the causes and the effects of climate change. Awareness of how the unbridled use of fossil fuels, and the associated emissions, causes changes in weather patterns in another part of the planet. If I could help people, and governments, see the impact of their choices, perhaps people would be motivated to more to change their habits to help the planet.")
+                    Text("What I would like to do, somehow, is write an app that draws connections between the causes and the effects of climate change. Awareness of how the unbridled use of fossil fuels, and the associated emissions, causes changes in weather patterns in another part of the planet. If I could help people, and governments, see the impact of their choices, perhaps people would be more motivated to change their habits to help the planet.")
                     
                     Image("nasa-smoke-model")
                         .resizable()
