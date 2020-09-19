@@ -19,43 +19,13 @@ struct ContentView: View {
                 
                 NavigationLink(destination: AboutMeView()) {
                     
-                    HStack {
-                        
-                        Image("Me")
-                            .resizable()
-                            .frame(width: 50.0, height: 50.0)
-                        
-                        VStack(alignment: .leading) {
-                            
-                            // Provide the label for the navigation link
-                            Text("A bit about me..")
-                            
-                            Text("caption")
-                                .font(.caption)
-                        }
-                        
-                    }
+                    NavigationRow(imageName: "Me", largeTitle: "A bit about me...", smallTitle: "Including toddler photo!")
                     
                 }
 
                 NavigationLink(destination: ThingsImportantToMeView()) {
                     
-                    HStack {
-                        
-                        Image("earth")
-                            .resizable()
-                            .frame(width: 50.0, height: 50.0)
-                        
-                        VStack(alignment: .leading) {
-                            
-                            // Provide the label for the navigation link
-                            Text("I'm passionate about...")
-                            
-                            Text("caption")
-                                .font(.caption)
-                        }
-                        
-                    }
+                    NavigationRow(imageName: "earth", largeTitle: "I'm passionate about...", smallTitle: "Our only home")
                     
                 }
 
