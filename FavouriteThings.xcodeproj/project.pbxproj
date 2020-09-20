@@ -22,7 +22,7 @@
 		0E46BE0E25127BD1006629E3 /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
 		0E46BE142512B6BD006629E3 /* ThingsImportantToMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsImportantToMeView.swift; sourceTree = "<group>"; };
 		0EBC0D412513D56D00C58114 /* NavigationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRow.swift; sourceTree = "<group>"; };
-		81877A312511A7550009A608 /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81877A312511A7550009A608 /* Fave Things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fave Things.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81877A342511A7550009A608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81877A362511A7550009A608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		81877A382511A7550009A608 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		81877A322511A7550009A608 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81877A312511A7550009A608 /* FavouriteThings.app */,
+				81877A312511A7550009A608 /* Fave Things.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +101,7 @@
 			);
 			name = FavouriteThings;
 			productName = FavouriteThings;
-			productReference = 81877A312511A7550009A608 /* FavouriteThings.app */;
+			productReference = 81877A312511A7550009A608 /* Fave Things.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -308,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.FavouriteThings;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Fave Things";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -328,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.russellgordon.FavouriteThings;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Fave Things";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
