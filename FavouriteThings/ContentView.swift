@@ -27,10 +27,9 @@ struct ContentView: View {
                         
                         VStack(alignment: .leading) {
                             
-                            // Provide the label for the navigation link
                             Text("A bit about me..")
                             
-                            Text("caption")
+                            Text("Including a baby photo!")
                                 .font(.caption)
                         }
                         
@@ -48,18 +47,16 @@ struct ContentView: View {
                         
                         VStack(alignment: .leading) {
                             
-                            // Provide the label for the navigation link
+
                             Text("I'm passionate about...")
                             
-                            Text("caption")
+                            Text("Our only home")
                                 .font(.caption)
                         }
                         
                     }
                     
                 }
-
-                
             }
             .navigationBarTitle("Favourite Things")
             
